@@ -1,0 +1,23 @@
+Sistema de gerenciamento de mercado
+Requisitos funcionais:
+1.	Cadastro de produtos
+O sistema deve permitir que o mercado registre novos produtos. As informações que precisam ser inseridas incluem:
+- Cadastro Produto (nome do produto)
+- Preço (valor da venda do produto)
+- Validade (data do vencimento do produto)
+- Quantidade no estoque (número de produtos disponíveis)
+- Categoria (categorizar produto como frios, açougue, frutas, alimentos, bebidas, pet, limpeza, entre outros...)
+- Código de barras/Código do produto (código de barras do produto ou caso não possua cadastrar um número como código do produto)
+2.	Cadastro operador caixa do supermercado
+- Cadastro do operador (nome completo do operador)
+- Horário de trabalho (turno de trabalho e intervalo do operador)
+- Número do caixa (identificar em qual caixa o operador trabalhará)
+3.	Registro de vendas (emitir nota fiscal)
+- Produtos vendidos (identificação do produto vendido pelo código de barras ou código do produto e sua quantidade)
+- Data de venda (registro da data em que a venda foi realizada)
+- Em qual caixa foi (identificação de qual caixa foi realizada a venda) 
+- Desconto (registro de desconto concedido ao cliente)
+- Valor que entrou e saiu do caixa (valor final da compra e forma de pagamento – cartão, pix ou dinheiro)
+- Integração com sistema de nota fiscal para dados fiscais do mercado e do consumidor caso se identifique (sistema de integração para identificação do mercado com CNPJ e do cliente com CPF no cupom fiscal)
+Requisitos não funcionais:
+Trabalho feito em trio: Anna Julia, Lívia Heloisa e Milena Grutka
