@@ -20,4 +20,20 @@ O sistema deve permitir que o mercado registre novos produtos. As informações 
 - Valor que entrou e saiu do caixa (valor final da compra e forma de pagamento – cartão, pix ou dinheiro)
 - Integração com sistema de nota fiscal para dados fiscais do mercado e do consumidor caso se identifique (sistema de integração para identificação do mercado com CNPJ e do cliente com CPF no cupom fiscal)
 Requisitos não funcionais:
+1.	Desempenho
+O sistema deve ser capaz de carregar as informações de forma rápida e eficiente, especialmente quando o mercado estiver movimentada. Por exemplo:
+Tempo de Resposta: O sistema deve responder a consultas de produtos e operadores em no máximo 2 segundos.
+Capacidade de Processamento: O sistema deve ser capaz de processar até 100 vendas simultâneas sem degradar o desempenho.
+2.	Segurança
+A segurança dos dados é crucial, especialmente quando se trata de informações dos trabalhadores. Alguns requisitos de segurança incluem:
+Proteção de Dados: Informações sensíveis dos operadores, como nome, devem ser criptografadas para evitar acessos não autorizados.
+Autenticação de Usuários: O acesso ao sistema deve ser restrito a funcionários autorizados, que devem usar credenciais (nome de usuário e senha) para fazer login.
+3.	Usabilidade
+O sistema deve ser fácil de usar, garantindo que os funcionários do mercado possam operá-lo sem dificuldades:
+Interface Intuitiva: As telas de identificação de operador e registro de vendas devem ser simples e diretas, com campos claros e botões fáceis de identificar.
+Suporte a Dispositivos: O sistema deve ser acessível somente pelos computadores dos caixas do supermercado.
+4.	Confiabilidade
+A confiabilidade garante que o sistema esteja disponível e funcione conforme esperado:
+Tempo de Atividade (Uptime): O sistema deve estar disponível pelo menos 99,9% do tempo durante o horário de funcionamento do mercado.
+Recuperação de Erros: Em caso de falha, o sistema deve ser capaz de se recuperar rapidamente, garantindo que nenhum dado importante seja perdido.
 Trabalho feito em trio: Anna Julia, Lívia Heloisa e Milena Grutka
